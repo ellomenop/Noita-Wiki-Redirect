@@ -1,0 +1,2 @@
+# Noita Wiki Redirect
+ 
