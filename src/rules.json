@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://noita.wiki.gg/wiki/\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https://noita.fandom.com/wiki/(.+)",
+      "resourceTypes": [
+        "main_frame"
+      ],
+      "requestDomains": ["noita.fandom.com"]
+    }
+  }
+]

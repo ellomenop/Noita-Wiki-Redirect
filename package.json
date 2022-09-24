@@ -1,0 +1,16 @@
+{
+    "name": "noita-wiki-search",
+    "version": "1.0.2",
+    "description": "Wiki search for Noita!",
+    "main": "background/background.js",
+    "scripts": {
+        "start": "web-ext run -s ./src",
+        "build": "web-ext build -s ./src/ -a build"
+    },
+    "author": "github.com/ellomenop",
+    "contributors": [],
+    "license": "GPL-3.0-only",
+    "devDependencies": {
+        "web-ext": "^6.3.0"
+    }
+}

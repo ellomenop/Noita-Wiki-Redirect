@@ -1,0 +1,35 @@
+{
+    "manifest_version": 3,
+    "name": "Noita Wiki Search",
+    "version": "1.0.2",
+    "description": "Wiki search for Noita!",
+    "icons": {
+        "96": "icons/icon_96.png",
+        "152": "icons/icon_152.png"
+    },
+    "permissions": [
+        "declarativeNetRequestWithHostAccess"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [{
+            "id": "ruleset_1",
+            "enabled": true,
+            "path": "rules.json"
+        }]
+    },
+    "host_permissions": [
+      "https://noita.fandom.com/"
+    ],
+    "action": {
+        "default_icon": "icons/favicon.png",
+        "default_title": "Noita Wiki Search",
+        "default_popup": "ui/ui.html"
+    },
+    "commands": {
+        "_execute_action": {
+            "suggested_key": {
+                "default": "Alt+N"
+            }
+        }
+    }
+}
